@@ -52,7 +52,7 @@ var TabsPageModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-tabs>\n\n  <ion-tab-bar slot=\"bottom\">\n    <ion-tab-button tab=\"tab1\">\n      <ion-icon name=\"flash\"></ion-icon>\n      <ion-label>Tab One</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab2\">\n      <ion-icon name=\"apps\"></ion-icon>\n      <ion-label>Tab Two</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab3\">\n      <ion-icon name=\"send\"></ion-icon>\n      <ion-label>Tab Three</ion-label>\n    </ion-tab-button>\n  </ion-tab-bar>\n\n</ion-tabs>\n"
+module.exports = "<ion-tabs>\n\n  <ion-tab-bar slot=\"bottom\">\n    <ion-tab-button tab=\"login\">\n      <ion-icon name=\"log-in\"></ion-icon>\n      <ion-label>Login</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"registration\">\n      <ion-icon name=\"add\"></ion-icon>\n      <ion-label>Registration</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab3\">\n      <ion-icon name=\"home\"></ion-icon>\n      <ion-label>Home</ion-label>\n    </ion-tab-button>\n  </ion-tab-bar>\n\n</ion-tabs>\n"
 
 /***/ }),
 
@@ -122,20 +122,20 @@ var routes = [
         component: _tabs_page__WEBPACK_IMPORTED_MODULE_3__["TabsPage"],
         children: [
             {
-                path: 'tab1',
+                path: 'login',
                 children: [
                     {
                         path: '',
-                        loadChildren: '../tab1/tab1.module#Tab1PageModule'
+                        loadChildren: '../login/login.module#LoginPageModule'
                     }
                 ]
             },
             {
-                path: 'tab2',
+                path: 'registration',
                 children: [
                     {
                         path: '',
-                        loadChildren: '../tab2/tab2.module#Tab2PageModule'
+                        loadChildren: '../registration/registration.module#RegistrationPageModule'
                     }
                 ]
             },
@@ -150,14 +150,14 @@ var routes = [
             },
             {
                 path: '',
-                redirectTo: '/tabs/tab1',
+                redirectTo: '/tabs/login',
                 pathMatch: 'full'
             }
         ]
     },
     {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/login',
         pathMatch: 'full'
     }
 ];

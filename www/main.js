@@ -837,17 +837,25 @@ module.exports = webpackAsyncContext;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"../tab1/tab1.module": [
-		"./src/app/tab1/tab1.module.ts",
-		"tab1-tab1-module"
+	"../login/login.module": [
+		"./src/app/login/login.module.ts",
+		"login-login-module"
 	],
-	"../tab2/tab2.module": [
-		"./src/app/tab2/tab2.module.ts",
-		"tab2-tab2-module"
+	"../registration/registration.module": [
+		"./src/app/registration/registration.module.ts",
+		"registration-registration-module"
 	],
 	"../tab3/tab3.module": [
 		"./src/app/tab3/tab3.module.ts",
 		"tab3-tab3-module"
+	],
+	"./login/login.module": [
+		"./src/app/login/login.module.ts",
+		"login-login-module"
+	],
+	"./registration/registration.module": [
+		"./src/app/registration/registration.module.ts",
+		"registration-registration-module"
 	],
 	"./tabs/tabs.module": [
 		"./src/app/tabs/tabs.module.ts",
@@ -893,7 +901,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var routes = [
-    { path: '', loadChildren: './tabs/tabs.module#TabsPageModule' }
+    { path: '', loadChildren: './tabs/tabs.module#TabsPageModule' },
+    { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
+    { path: 'registration', loadChildren: './registration/registration.module#RegistrationPageModule' }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -1086,7 +1096,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/nehanavgale/ionicAPP/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/nehanavgale/Documents/GitHub/ionicApplication/src/main.ts */"./src/main.ts");
 
 
 /***/ })

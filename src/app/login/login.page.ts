@@ -16,11 +16,11 @@ export class LoginPage implements OnInit {
   passwordValue;
   password;
   login() {
-    this.storage.get('EmailAddress').then((data) => this.emailValue = data)
-    this.storage.get('Password').then(data => this.passwordValue = data)
-    if (this.emailValue === this.emailAddress && this.passwordValue === this.password) {
-      this.router.navigateByUrl('/home');
-    } else {
+    if (this.emailAddress in window.localStorage) {
+      if (JSON.parse(localStorage.getItem(this.emailAddress))['Password'] === this.password) {
+        this.router.navigateByUrl('tabs/home');
+      }
+    }
       // const alertController = document.querySelector('ion-alert-controller');
       //  alertController.componentOnReady();
       // const errorAlert = await this.alertController.create({
@@ -31,7 +31,6 @@ export class LoginPage implements OnInit {
       // });
       // errorAlert.present();
       // this.router.navigateByUrl('/registration');
-    }
   }
   ngOnInit() {
   }

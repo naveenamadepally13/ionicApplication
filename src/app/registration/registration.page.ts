@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Storage } from '@ionic/storage';
 import { Router } from '@angular/router';
+import {NavController} from '@ionic/angular';
 
 @Component({
   selector: 'app-registration',
@@ -13,18 +14,22 @@ export class RegistrationPage implements OnInit {
   emailAdress;
   password;
   confirmPassword;
-  emailValue;
+  storageUser;
 
-  constructor(public storage: Storage, private router: Router) {
+  constructor(public storage: Storage, private router: Router, public navCtrl: NavController) {
   }
   register() {
-    this.storage.get('EmailAddress').then((data) => this.emailValue = data)
-    if (this.emailValue !== this.emailAdress) {
-      this.storage.set('EmailAdress', this.emailAdress);
-      this.storage.set('Password', this.password);
-      this.storage.set('FirstName', this.firstName);
-      this.storage.set('LastName', this.lastName);
-      this.router.navigateByUrl('/login');
+    if (this.emailAdress in window.localStorage) {
+    //  alert
+    } else {
+      if (this.password === this.confirmPassword) {
+        this.storageUser = {
+          FirstName: this.firstName, LastName: this.lastName, EmailAddress: this.emailAdress,
+          Password: this.password
+        }
+        window.localStorage.setItem(this.emailAdress, JSON.stringify(this.storageUser));
+        this.navCtrl.navigateRoot('tabs/login');
+      }
     }
   }
   ngOnInit() {

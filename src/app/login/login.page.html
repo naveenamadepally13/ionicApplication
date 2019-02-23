@@ -8,13 +8,12 @@
       <div padding>
         <ion-item>
           <ion-input type="text" placeholder="Email Address" [(ngModel)]="emailAddress"></ion-input>
+          <ion-input type="text" placeholder="Username" [(ngModel)]="userName"></ion-input>
         </ion-item>
-
         <ion-item>
           <ion-input type="password" placeholder="Password" [(ngModel)]="password"></ion-input>
         </ion-item>
       </div>
-
       <div padding>
         <ion-button size="large" href="/touchid" expand="block" (click)="login()">Login</ion-button>
       </div>

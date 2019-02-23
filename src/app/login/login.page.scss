@@ -9,6 +9,7 @@ ion-grid {
   width:100%;
   height: $height100;
   background: #dfdfdf;
+
 }
 
 ion-row {
@@ -24,9 +25,13 @@ ion-button {
   font-weight: 300;
 }
 
+.gridBack {
+  background: linear-gradient(to bottom right, #33ccff, #ff99cc);
+}
+
 @media (min-width: 240px) and (max-width: 768px) {
   ion-grid {
-    background: $white-color;
+    background: none;
   }
   ion-col {
     border: none;

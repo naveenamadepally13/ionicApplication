@@ -1,4 +1,4 @@
-#Fri Feb 22 12:40:48 CST 2019
+#Fri Feb 22 17:25:49 CST 2019
 base.0=/Users/nehanavgale/Documents/GitHub/ionicApplication/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

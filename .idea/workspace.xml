@@ -15,15 +15,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/login/login.page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="12" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/login/login.page.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -44,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/home/home.page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="67" column="36" lean-forward="true" selection-end-line="142" />
+            <state relative-caret-position="364">
+              <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#ion-card#0;n#ion-row#0;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ion-img#0;n#div#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#0;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
@@ -97,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/registration/registration.page.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="111">
@@ -105,6 +96,15 @@
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/registration/registration.page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -310,12 +310,12 @@
       <workItem from="1550859790038" duration="8374000" />
       <workItem from="1550876929726" duration="1016000" />
       <workItem from="1550890413452" duration="1491000" />
-      <workItem from="1550942278443" duration="15714000" />
+      <workItem from="1550942278443" duration="15852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26969000" />
+    <option name="totallyTimeSpent" value="27107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -540,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/registration/registration.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="64" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/registration/registration.page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -565,24 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="1" lean-forward="true" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/home/home.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="67" column="36" lean-forward="true" selection-end-line="142" />
-          <folding>
-            <element signature="n#style#0;n#ion-card#0;n#ion-row#0;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-img#0;n#div#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#0;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-card#0;n#ion-row#1;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-card#0;n#ion-row#2;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-text#0;n#ion-col#0;n#ion-row#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#2;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-text#0;n#ion-col#1;n#ion-row#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#2;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-text#0;n#ion-col#2;n#ion-row#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#2;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-text#0;n#ion-col#3;n#ion-row#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#2;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-text#0;n#ion-col#4;n#ion-row#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#2;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,6 +624,31 @@
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/registration/registration.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/home/home.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#ion-card#0;n#ion-row#0;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-img#0;n#div#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#0;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-card#0;n#ion-row#1;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-card#0;n#ion-row#2;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-text#0;n#ion-col#0;n#ion-row#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#2;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-text#0;n#ion-col#1;n#ion-row#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#2;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-text#0;n#ion-col#2;n#ion-row#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#2;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-text#0;n#ion-col#3;n#ion-row#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#2;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-text#0;n#ion-col#4;n#ion-row#0;n#ion-card-content#0;n#ion-card#0;n#ion-row#2;n#ion-grid#0;n#ion-content#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,23 +1,23 @@
-app-login {
-
-}
-
-$white-color: #fff;
+//$white-color: #fff;
 $height100: 100%;
 
 ion-grid {
   width:100%;
   height: $height100;
-  background: #dfdfdf;
+  //background: #dfdfdf;
 }
 
 ion-row {
   height: $height100;
 }
 
+ion-item {
+  background-color: transparent !important;
+}
+
 ion-col {
-  border: 1px solid #488aff;
-  background: $white-color;
+  border: 1px;
+  //background:transparent;
 }
 
 ion-button {
@@ -30,7 +30,7 @@ ion-button {
 
 @media (min-width: 240px) and (max-width: 768px) {
   ion-grid {
-    background: none;
+    //background: transparent;
   }
   ion-col {
     border: none;

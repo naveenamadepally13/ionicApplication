@@ -21,16 +21,6 @@ export class LoginPage implements OnInit {
         this.router.navigateByUrl('tabs/home');
       }
     }
-      // const alertController = document.querySelector('ion-alert-controller');
-      //  alertController.componentOnReady();
-      // const errorAlert = await this.alertController.create({
-      //   header: 'Error',
-      //   subHeader: '',
-      //   message: 'You do not have an acccount. Please create account on Registration page',
-      //   buttons: ['ok']
-      // });
-      // errorAlert.present();
-      // this.router.navigateByUrl('/registration');
   }
   ngOnInit() {
   }

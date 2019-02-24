@@ -3,88 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="cd369180-0743-4aa2-a71d-5cd066e39836" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@ionic/storage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@ionic/storage/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/.babelrc-umd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/component.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage/component.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/dist/localforage.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage/dist/localforage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/dist/localforage.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage/dist/localforage.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/dist/localforage.nopromises.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage/dist/localforage.nopromises.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/dist/localforage.nopromises.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage/dist/localforage.nopromises.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/api.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/fonts/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/fonts/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/fonts/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/fonts/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/localforage.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/scripts/flatdoc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/scripts/legacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/theme/localforage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/theme/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/docs/theme/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/examples/dbquota-error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/examples/dropInstance.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/examples/indexeddb-invalidstate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/examples/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/examples/no-driver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/examples/polyfill.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/examples/require.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/examples/require.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/examples/websql-foo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/src/drivers/websql.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage/src/drivers/websql.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/dummyStorageDriver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/photo2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/runner.browserify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/runner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/runner.webpack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/saucelabs-browsers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/serviceworker-client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.browserify.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.callwhenready.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.callwhenready.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.customdriver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.customdriver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.datatypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.drivers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.faultydriver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.faultydriver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.iframecontents.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.iframes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.min.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.nodriver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.nodriver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.polyfill.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.require.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.serviceworkers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.webpack.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/test.webworkers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/test/webworker-client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/typing-tests/localforage-tests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/localforage/typing-tests/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/fetch.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/fetch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/login/login.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.page.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.page.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/login/login.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.page.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/registration/registration.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/registration/registration.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/registration/registration.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/registration/registration.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/registration/registration.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/registration/registration.page.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -99,22 +25,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/login/login.page.html">
+        <entry file="file://$PROJECT_DIR$/src/app/registration/registration.page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="193">
+              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/login/login.page.ts">
+        <entry file="file://$PROJECT_DIR$/src/app/login/login.page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-128">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -122,20 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/registration/registration.page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/registration/registration.page.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -156,17 +67,18 @@
         <option value="$PROJECT_DIR$/src/app/tab1/tab1.page.html" />
         <option value="$PROJECT_DIR$/src/app/login/login.module.ts" />
         <option value="$PROJECT_DIR$/src/theme/variables.scss" />
-        <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/app/login/login.page.scss" />
-        <option value="$PROJECT_DIR$/src/app/registration/registration.page.scss" />
         <option value="$PROJECT_DIR$/src/app/tabs/tabs.router.module.ts" />
         <option value="$PROJECT_DIR$/src/app/tabs/tabs.page.html" />
         <option value="$PROJECT_DIR$/src/app/home/home.page.html" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/registration/registration.page.html" />
         <option value="$PROJECT_DIR$/src/app/registration/registration.page.ts" />
-        <option value="$PROJECT_DIR$/src/app/login/login.page.html" />
         <option value="$PROJECT_DIR$/src/app/login/login.page.ts" />
+        <option value="$PROJECT_DIR$/src/app/login/login.page.spec.ts" />
+        <option value="$PROJECT_DIR$/src/app/login/login.page.html" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/app/registration/registration.page.html" />
+        <option value="$PROJECT_DIR$/src/app/registration/registration.page.scss" />
+        <option value="$PROJECT_DIR$/src/app/login/login.page.scss" />
       </list>
     </option>
   </component>
@@ -211,6 +123,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="registration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ionicApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ionicApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ionicApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ionicApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,12 +217,12 @@
       <workItem from="1550859790038" duration="8374000" />
       <workItem from="1550876929726" duration="1016000" />
       <workItem from="1550890413452" duration="1491000" />
-      <workItem from="1550942278443" duration="4720000" />
+      <workItem from="1550942278443" duration="6507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15975000" />
+    <option name="totallyTimeSpent" value="17762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="798" extended-state="0" />
@@ -330,43 +254,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/app/tab1/tab1.page.html" />
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/global.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/BioHEAD-FBI-CJIS.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/login/login.page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="1" selection-start-line="27" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/registration/registration.page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/shapes.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -420,13 +307,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/registration/registration.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -486,20 +366,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/login/login.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/login/login.page.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="259">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/login/login.page.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/BioHEAD-FBI-CJIS.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/login/login.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/registration/registration.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/registration/registration.page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/login/login.page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -25,7 +25,18 @@ describe('LoginPage', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should exists in local storage', () => {
-    expect(component.emailAddress)
+  it('should throw alert when password is incorrect', () => {
+    component.emailAddress = 'nehanavgale0604@gmail.com';
+    component.password = 'xyz';
+    component.login();
+    expect(component.passwordError()).toHaveBeenCalled();
   });
+
+  it('should throw error if user does not have account', () => {
+    component.emailAddress = 'naveenamadepally@gmail.com';
+    component.password = 'xyz';
+    component.login();
+    expect(component.accountError()).toHaveBeenCalled();
+  });
+
 });

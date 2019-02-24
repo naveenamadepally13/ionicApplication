@@ -25,10 +25,23 @@ describe('RegistrationPage', () => {
     expect(component).toBeTruthy();
   });
 
-  it('password should match with confirm password', () => {
+  it('password should not match with confirm password', () => {
+    component.firstName = 'Neha';
+    component.lastName = 'Navgale';
+    component.emailAdress = 'nehanavgale0604@gmail.com';
+    component.password = '123';
+    component.confirmPassword = '234';
+    component.register();
+    expect(component.passwordError()).toHaveBeenCalled();
+  });
+
+  it('Registration successful when password and confirm password matches', () => {
+    component.firstName = 'Neha';
+    component.lastName = 'Navgale';
+    component.emailAdress = 'nehanavgale0604@gmail.com';
     component.password = '123';
     component.confirmPassword = '123';
     component.register();
-    expect(component.navCtrl.navigateRoot('tabs/login')).toBeTruthy();
+    expect(component.successAlert()).toHaveBeenCalled();
   });
 });

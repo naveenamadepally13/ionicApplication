@@ -39,7 +39,7 @@ export class LoginPage implements OnInit {
       } else { this.passwordError(); }
     } else {
       this.accountError();
-      // this.navCtrl.navigateRoot('tabs/registration');
+      this.navCtrl.navigateRoot('tabs/registration');
     }
   }
   ngOnInit() {

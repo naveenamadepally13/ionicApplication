@@ -1,0 +1,27 @@
+.titeltext{
+  padding: 10px 0px 0px 10px;
+  color: white;
+}
+.anaylsetext{
+  padding: 10px 0px 0px 10px;
+  color: white;
+}
+.headingsize{
+  font-size: medium;
+}
+.extractedtext{
+  color: black;
+  font-weight: 500;
+}
+.gridBack {
+  background: linear-gradient(to bottom right, #33ccff, #ff99cc);
+}
+
+@media (min-width: 240px) and (max-width: 768px) {
+  ion-grid {
+    background: none;
+  }
+  ion-col {
+    border: none;
+  }
+}

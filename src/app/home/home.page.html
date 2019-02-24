@@ -1,9 +1,142 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Home</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <ion-grid  class="gridBack">
+    <div text-center>
+      <h4 class="titeltext">Analyze Image</h4>
+    </div>
+    <ion-row>
+      <ion-card style="width: 100%">
+        <ion-card-title class="titeltext">
+          Upload image to extract logos and text
+        </ion-card-title>
+        <ion-card-header>
+          Uploaded image will be displayed here
+        </ion-card-header>
+        <ion-card-content>
+          <div  *ngIf="uploadedimgurl">
+            <ion-img  style="padding: 10px 10px 10px 10px;" [src]="uploadedimgurl">
+            </ion-img>
+          </div>
+          <ion-input type="text" placeholder="paste image url here" [(ngModel)]="uploadedimgurl">
+          </ion-input>
+          <ion-button (click)="sendPostRequest()">Analyse</ion-button>
 
-<ion-content padding>
+        </ion-card-content>
+      </ion-card>
+    </ion-row>
 
+    <ion-row>
+      <ion-card style="width: 100%">
+        <ion-card-title class="titeltext">
+          Analysed logos
+        </ion-card-title>
+        <ion-card-header>
+          analysed logo information is displayed here.
+
+        </ion-card-header>
+        <ion-card-content>
+          <div *ngIf="logoresult">
+            <div  *ngFor="let logo of logoresult" class="extractedtext">
+              <div>
+                Logo Name: {{logo.description}}
+              </div>
+              <div>
+                Accuracy : {{logo.score}}
+              </div>
+            </div>
+          </div>
+        </ion-card-content>
+        <ion-card-title class="anaylsetext">
+          Extracted text
+        </ion-card-title>
+        <ion-card-header>
+          Text extracted form the image will be displayed here.
+        </ion-card-header>
+        <ion-card-content>
+
+          <ion-text class="extractedtext">
+            {{textresult}}
+          </ion-text>
+
+          <div>
+            <ion-button (click)="analysetext()">Analyse</ion-button>
+          </div>
+        </ion-card-content>
+
+      </ion-card>
+    </ion-row>
+    <ion-row>
+      <ion-card style="width: 100%">
+        <ion-card-title class="titeltext">
+          Analyzed text results
+        </ion-card-title>
+        <ion-card-header>
+          Analysed text results are displayed here.
+        </ion-card-header>
+        <ion-card-content>
+          <ion-row>
+            <ion-col *ngIf="textdataresult">
+              <ion-text style="color:red"> <b>Person</b></ion-text>
+              <div *ngFor="let text of textdataresult">
+                <div *ngIf="text.type==='PERSON'">
+                  Name : {{text.name}}
+                  <div *ngIf="text.metadata.wikipedia_url">
+                    <a>
+                      {{text.metadata.wikipedia_url}}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </ion-col>
+
+            <ion-col *ngIf="textdataresult">
+              <ion-text style="color:yellow"> <b>Events</b></ion-text>
+              <div *ngFor="let text of textdataresult">
+                <div *ngIf="text.type==='EVENT'">
+                  Event Name : {{text.name}}
+                </div>
+              </div>
+            </ion-col>
+
+            <ion-col *ngIf="textdataresult">
+              <ion-text style="color:blue"> <b>Location</b></ion-text>
+              <div *ngFor="let text of textdataresult">
+                <div *ngIf="text.type==='LOCATION'">
+                  Location Name : {{text.name}}
+                  <div *ngIf="text.metadata.wikipedia_url">
+                    <a>
+                      {{text.metadata.wikipedia_url}}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </ion-col>
+
+            <ion-col *ngIf="textdataresult">
+              <ion-text style="color:green"> <b>Work</b></ion-text>
+              <div *ngFor="let text of textdataresult">
+                <div *ngIf="text.type==='WORK_OF_ART'">
+                  Name : {{text.name}}
+                </div>
+              </div>
+            </ion-col>
+
+            <ion-col *ngIf="textdataresult">
+              <ion-text style="color:deeppink"> <b>Others</b></ion-text>
+              <div *ngFor="let text of textdataresult">
+                <div *ngIf="text.type==='OTHER'">
+                  Name : {{text.name}}
+                  <div *ngIf="text.metadata.wikipedia_url">
+                    <a>
+                      {{text.metadata.wikipedia_url}}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </ion-col>
+
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </ion-row>
+  </ion-grid>
 </ion-content>

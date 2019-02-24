@@ -24,4 +24,11 @@ describe('RegistrationPage', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('password should match with confirm password', () => {
+    component.password = '123';
+    component.confirmPassword = '123';
+    component.register();
+    expect(component.navCtrl.navigateRoot('tabs/login')).toBeTruthy();
+  });
 });

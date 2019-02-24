@@ -32,13 +32,17 @@ export class HomePage implements OnInit {
         this.httpclient.post('https://vision.googleapis.com/v1/images:annotate?key=AIzaSyACbCX2hq_U5tzHua_q5vZc1-ZC1obzBQM',
             postData, {headers: {'Content-Type': 'application/json'}})
             .subscribe(data => {
-                this.result = data;
-                this.textresult = this.result.responses[0].fullTextAnnotation.text;
-                this.logoresult = this.result.responses[0].logoAnnotations;
-                // console.log(this.result.responses[0].fullTextAnnotation.text);
-            } , error => {
-                console.log(error);
-            });
+                    if (data) {
+                        this.result = data;
+                        this.textresult = this.result.responses[0].fullTextAnnotation.text;
+                        this.logoresult = this.result.responses[0].logoAnnotations;
+                        // console.log(this.result.responses[0].fullTextAnnotation.text);
+                    }
+                }
+
+                , error => {
+                    console.log(error);
+                });
 
     }
 
@@ -54,10 +58,12 @@ export class HomePage implements OnInit {
         this.httpclient.post('https://language.googleapis.com/v1/documents:analyzeEntities?key=AIzaSyACbCX2hq_U5tzHua_q5vZc1-ZC1obzBQM',
             postData, {headers: {'Content-Type': 'application/json'}})
             .subscribe(data => {
-                this.analysedtextdata = data;
-                this.textdataresult = this.analysedtextdata.entities ;
-                console.log(this.textdataresult);
-            } , error => {
+                if (data) {
+                    this.analysedtextdata = data;
+                    this.textdataresult = this.analysedtextdata.entities;
+                    console.log(this.textdataresult);
+                }
+            }, error => {
                 console.log(error);
             });
 
